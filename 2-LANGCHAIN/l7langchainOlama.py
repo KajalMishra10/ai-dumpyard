@@ -7,9 +7,6 @@ from langchain_core.output_parsers import StrOutputParser
 
 import streamlit as st
 
-
-
-
 prompt=ChatPromptTemplate.from_messages(
     [
         ("system", "You are a helpful assistant. please answer the question as best as you can."),
