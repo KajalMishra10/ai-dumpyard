@@ -6,3 +6,5 @@ python-dotenv
 langchain-openai
 langchain-groq
 langchain-huggingface
+arxiv
+wikipedia
