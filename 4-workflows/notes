@@ -1,0 +1,5 @@
+Prompt chaining is a technique in natural language processing where multiple prompts are sequenced 
+together to guide a model through a complex task or reasoning process. Instead of relying on a 
+single prompt to achieve a desired outcome, prompt chaining breaks the task into smaller, 
+manageable steps, with each step building on the previous one. This approach can improve accuracy,
+coherence, and control when working with large language models.
