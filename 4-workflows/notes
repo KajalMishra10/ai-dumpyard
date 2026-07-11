@@ -3,3 +3,17 @@ together to guide a model through a complex task or reasoning process. Instead o
 single prompt to achieve a desired outcome, prompt chaining breaks the task into smaller, 
 manageable steps, with each step building on the previous one. This approach can improve accuracy,
 coherence, and control when working with large language models.
+
+
+
+
+
+2) Parallelization
+
+What is Parallelization in LangGraph?
+
+In LangGraph, nodes typically execute in a sequence defined by edges, but when tasks don’t depend on each other’s outputs, you can run them in parallel. This is achieved by:
+
+• Defining multiple nodes that can operate independently.
+• Connecting them to a common starting point (e.g., START or another node).
+• Merging their outputs into a downstream node if needed.
